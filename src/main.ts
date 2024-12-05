@@ -3,7 +3,7 @@ const form = document.querySelector("form") as HTMLFormElement;
 const pre = document.querySelector("pre") as HTMLPreElement;
 
 let query = "";
-textarea.addEventListener("input", (e) => {
+textarea.addEventListener("input", (_) => {
   query = textarea.value;
 });
 
