@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/style.css">
+    <title>Vite + TS</title>
+  </head>
+  <body class="font-mono flex flex-col items-center justify-center">
+    <div class="flex items-center justify-center flex-col py-10">
+      <h1 class="text-lg font-semibold">SPARQL Playground</h1>
+      <form action="" class="flex flex-col">
+        <textarea class="border border-black" name="query" id="query" cols="70" rows="20"></textarea>
+        <input class="border border-black mt-2" type="submit" value="Submit">
+      </form>
+    </div>
+    <div class="max-h-500px overflow-y-auto">
+      <pre class=""></pre>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
